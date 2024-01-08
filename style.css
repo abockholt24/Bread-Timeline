@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+#game-container {
+    margin: auto;
+    width: 80%;
+    border: 1px solid hsl(0, 0%, 0%);
+    padding: 20px;
+}
+body {
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+body {
+    font-size: 20px; /* This sets the base font size to 18 pixels */
+    /* Other properties already set for body, if any, should remain as they are */
+}
+body::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.5); /* White background with 50% opacity */
+    z-index: -1;
+}
+
+body {
+    position: relative;
+}
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.5); /* Semi-transparent white background */
+    z-index: -1;
+}
+body::before {
+    position: fixed;
+    /* Other styles... */
+}
